@@ -10,17 +10,17 @@ span {
 .btn-default{
   background-color: #61D079;
 }
+
+#cart-img {
+  margin-top: 10px;
+  height: 50px;
+}
 /*Game Box Styling*/
 .game-box {
   background-color: black;
   color: white;
   font-family: monospace;
   margin-bottom: 40px;
-}
-
-.box-thumb {
-  max-height: 175px;
-  margin: 5px;
 }
 
 .box-title {
@@ -30,7 +30,11 @@ span {
 .box-price {
   color: #35A2DD;
 }
+.box-thumb {
+  margin-top: 1.2em;
+  width: 100%;
 
+}
 /*Game Detail Styling*/
 .detail-image {
   max-width: 400px;
@@ -55,3 +59,11 @@ span {
   color: #FF3366;
 }
 /*Header Styling*/
+#title {
+  color: #61D079;
+  font-family: monospace;
+}
+
+.navbar-default {
+  background-color: #1F2532;
+}
