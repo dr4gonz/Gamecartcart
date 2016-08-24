@@ -1,0 +1,12 @@
+/*Game Box Styling*/
+.game-box {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  margin-bottom: 40px;
+}
+
+.box-thumb {
+  max-height: 175px;
+  margin: 5px;
+}

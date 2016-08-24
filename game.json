@@ -1,0 +1,32 @@
+{
+  "games" :  [{
+    "title" : "Luigi's Chronicles 2",
+    "description" : "Unfinished game, estimated 20 copies exist",
+    "collector_notes" : "Unreleased dev project, cc 1987",
+    "price": "50000",
+    "rating": "3",
+    "image": "https://i.ytimg.com/vi/_-Po5rji7MI/maxresdefault.jpg"
+    },{
+    "title" : "Beat up Zelda 1",
+    "description" : "Can play Third Quest, as Zelda",
+    "collector_notes" : "Has a good save file",
+    "price": "35",
+    "rating": "4",
+    "image": "http://geekologie.com/2012/07/30/nes-zelda-prototype-3.jpg"
+    },{
+    "title" : "Super Mario Bros. 4",
+    "description" : "Fan made sequel to the NES Hit",
+    "collector_notes" : "Unreleased dev project, cc 1994",
+    "price": "2000",
+    "rating": "5",
+    "image": "https://s-media-cache-ak0.pinimg.com/564x/b2/1c/e7/b21ce7736daa954d5970b13b8ba4acdc.jpg"
+    },{
+    "title" : "StarFox 2",
+    "description" : "Japanese version of StarFox 2",
+    "collector_notes" : "Unreleased in the US. Japanese Super Famicom required",
+    "price": "200",
+    "rating": "4",
+    "image": "http://3yygnpths4h2fy4k52n9sqs1c23.wpengine.netdna-cdn.com/wp-content/uploads/2011/02/Star-Fox-2-Cart.png"
+    }
+  ]
+}
