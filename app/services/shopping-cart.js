@@ -5,6 +5,5 @@ export default Ember.Service.extend({
 
   add(game) {
     this.get('items').pushObject(game);
-    console.log(this.get('items'));
   }
 });

@@ -7,7 +7,6 @@ export default Ember.Route.extend({
   shoppingCart: Ember.inject.service(),
   actions: {
     addToCart(game) {
-      console.log(game);
       this.get('shoppingCart').add(game);
     }
   }
