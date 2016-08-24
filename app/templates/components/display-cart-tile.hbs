@@ -1,4 +1,3 @@
-{{stringy-json shoppingCart.items}}
 {{#each shoppingCart.items as |game|}}
-  {{game.title}} -- {{game.price}}
+  {{cart-game-tile game=game}}
 {{/each}}

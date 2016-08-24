@@ -11,10 +11,6 @@ span {
   background-color: #61D079;
 }
 
-#cart-img {
-  margin-top: 10px;
-  height: 50px;
-}
 /*Game Box Styling*/
 .game-box {
   background-color: black;
@@ -58,6 +54,35 @@ span {
   font-size: 3.2em;
   color: #FF3366;
 }
+/*Display Cart Styling*/
+.cart-image {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cart-div {
+  margin-bottom: 30px;
+  border: 1px solid #61D079;
+  background-color: #2F3542;
+}
+.cart-title {
+  font-family: monospace;
+  font-size: 1.5em;
+  color: #FF3366;
+}
+.cart-description {
+  font-family: monospace;
+  font-size: 1em;
+  color: #FF3366;
+}
+.cart-price {
+  font-family: monospace;
+  font-size: 1.5em;
+  color: #FF3366;
+}
+
+
 /*Header Styling*/
 #title {
   color: #61D079;
@@ -66,4 +91,9 @@ span {
 
 .navbar-default {
   background-color: #1F2532;
+}
+
+#cart-img {
+  margin-top: 10px;
+  height: 50px;
 }
