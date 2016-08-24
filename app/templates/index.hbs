@@ -1,5 +1,5 @@
 <div class="col-md-12">
   {{#each model as |game|}}
-  {{game-data-tile game=game}}
+    {{#link-to 'game-route' game.id}}{{game-data-tile game=game}}{{/link-to}}
   {{/each}}
 </div>

@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('cart');
+  this.route('game-route', {path: '/game/:game_id'});
 });
 
 export default Router;

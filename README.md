@@ -1,4 +1,4 @@
-# Gamecartcart
+# Gamecartcart :hocho::100:
 ## by Matt Reyes and Alex Jacks
 
 This README outlines the details of collaborating on this Ember application.

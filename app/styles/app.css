@@ -1,3 +1,15 @@
+/*Main Page Styling*/
+body {
+  background-color: #5F697A;
+
+}
+span {
+  color: #1F2532;
+}
+
+.btn-default{
+  background-color: #61D079;
+}
 /*Game Box Styling*/
 .game-box {
   background-color: black;
@@ -10,3 +22,36 @@
   max-height: 175px;
   margin: 5px;
 }
+
+.box-title {
+  color: #35A2DD;
+}
+
+.box-price {
+  color: #35A2DD;
+}
+
+/*Game Detail Styling*/
+.detail-image {
+  max-width: 400px;
+}
+.detail-title {
+  font-family: monospace;
+  font-size: 2.5em;
+  color: #35A2DD;
+}
+.detail-headers {
+  color: #FF3366;
+  font-family: monospace;
+  font-size: 3em;
+}
+.detail-description, .detail-collector-notes {
+  font-family: monospace;
+  font-size: 1.5em;
+}
+.detail-price {
+  font-family: monospace;
+  font-size: 3.2em;
+  color: #FF3366;
+}
+/*Header Styling*/
