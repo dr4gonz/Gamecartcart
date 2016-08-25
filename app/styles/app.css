@@ -81,7 +81,9 @@ span {
   font-size: 1.5em;
   color: #FF3366;
 }
-
+.cart-total {
+  float: right;
+}
 
 /*Header Styling*/
 #title {
@@ -91,6 +93,15 @@ span {
 
 .navbar-default {
   background-color: #1F2532;
+}
+
+.cart-navbar-price {
+  font-family: monospace;
+  font-size: 1.5em;
+  color: #FF3366;
+}
+.cart-price-margin {
+  margin-top: 30px;
 }
 
 #cart-img {

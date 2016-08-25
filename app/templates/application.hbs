@@ -1,19 +1,26 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <ul class="nav navbar-nav">
-      <li class="nav-item">
-        <h1>
-          <i class="em em-gift"><i class="em em-heartpulse"></i></i>
-          {{#link-to 'index'}}<span id="title">Gamecartcart</span>{{/link-to}}
-          <i class="em em-gift"><i class="em em-heartpulse"></i></i>
-        </h1>
-      </li>
-      <li class="nav-item">
-        {{#link-to 'cart'}}<img id="cart-img" src="assets/images/shopping-cart.png">{{/link-to}}
-      </li>
-    </ul>
-  <!-- Collect the nav links, forms, and other content for toggling -->
+      <ul class="nav navbar-nav navbar-left">
+        <li class="nav-item">
+          <h1>
+            <i class="em em-gift"><i class="em em-heartpulse"></i></i>
+            {{#link-to 'index'}}<span id="title">Gamecartcart</span>{{/link-to}}
+            <i class="em em-gift"><i class="em em-heartpulse"></i></i>
+          </h1>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item cart-price-margin">
+          <span class="cart-price">$</span>
+        </li>
+        <li class="nav-item cart-price-margin">
+          <span class="cart-price">{{running-total}}</span>
+        </li>
+        <li class="nav-item">
+          {{#link-to 'cart'}}<img class="cart-nav-img" id="cart-img" src="assets/images/shopping-cart.png">{{/link-to}}
+        </li>
+      </ul>
   </div>
 </nav>
 <!-- <div class="container"> -->

@@ -8,6 +8,7 @@ export default Ember.Route.extend({
   actions: {
     addToCart(game) {
       this.get('shoppingCart').add(game);
+      this.transitionTo('index');
     }
   }
 });
