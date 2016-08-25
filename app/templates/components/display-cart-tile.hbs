@@ -1,5 +1,5 @@
-{{#each shoppingCart.items as |game|}}
-  {{cart-game-tile game=game}}
+{{#each shoppingCart.games as |game|}}
+  {{cart-game-tile game=game remove="remove"}}
 {{/each}}
 
 <div style="overflow: hidden; white-space: nowrap; text-overflow:ellipsis" class="cart-price cart-total">

@@ -1,14 +1,15 @@
 <div class="row cart-div">
   <div class="col-md-10">
-    <div class="col-md-3 bg-color">
+    <div class="col-md-3">
       <img class="cart-image" src={{game.image}}>
     </div>
-    <div class="col-md-6 bg-color">
+    <div class="col-md-6">
       <span class="cart-title">{{game.title}}</span><br>
       <span class="cart-description">{{game.description}}</span>
     </div>
-    <div class="col-md-3 bg-color">
+    <div class="col-md-3">
       <span class="cart-price">$ {{game.price}}</span>
+      <button {{action 'remove' game}} class="btn btn-lg btn-danger">Remove</button>
     </div>
   </div>
 </div>

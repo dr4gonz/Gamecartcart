@@ -14,7 +14,6 @@ span {
 /*Game Box Styling*/
 .game-box {
   background-color: black;
-  color: white;
   font-family: monospace;
   margin-bottom: 40px;
 }
@@ -26,14 +25,20 @@ span {
 .box-price {
   color: #35A2DD;
 }
+.box-price-spacing {
+  margin-bottom: 10px;
+}
 .box-thumb {
-  margin-top: 1.2em;
-  width: 100%;
-
+  width:  150px;
+  height: 150px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+  margin-top: 10px;
 }
 /*Game Detail Styling*/
 .detail-image {
-  max-width: 400px;
+  max-width: 600px;
 }
 .detail-title {
   font-family: monospace;
@@ -93,6 +98,8 @@ span {
 
 .navbar-default {
   background-color: #1F2532;
+  border: 1px solid #FF3366;
+  border-radius: 0;
 }
 
 .cart-navbar-price {
@@ -107,4 +114,20 @@ span {
 #cart-img {
   margin-top: 10px;
   height: 50px;
+}
+
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
 }
