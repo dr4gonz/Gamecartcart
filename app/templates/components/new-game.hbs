@@ -1,0 +1,31 @@
+{{#if newGameForm}}
+<div class="col-md-6">
+  <form>
+    <div class="form-group">
+      <label for="title">Title:</label>
+      {{textarea cols="80" rows="1" value=title id="title"}}
+    </div>
+    <div class="form-group">
+      <label for="description">Description:</label>
+      {{textarea cols="80" rows="4" value=description id="description"}}
+    </div>
+    <div class="form-group">
+      <label for="collectors_notes">Collector Notes:</label>
+      {{textarea cols="80" rows="2" value=collectors_notes id="collectors_notes"}}
+    </div>
+    <div class="form-group">
+      <label for="rating">Rating:</label>
+      {{input type=text value=rating id="rating"}}
+    </div>
+    <div class="form-group">
+      <label for="image">Image:</label>
+      {{input value=image id="image"}}
+    </div>
+  </form>
+  <button class="btn btn-primary btn-xs" {{action 'addNewGame'}}>Save</button>
+</div>
+{{else}}
+<div class="row">
+    <button class="btn btn-xs btn-primary" name="editbtn" {{action 'showNewGameForm'}}>Add Game</button>
+</div>
+{{/if}}
